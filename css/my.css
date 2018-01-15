@@ -1,0 +1,250 @@
+/*
+* @Author: lenovo
+* @Date:   2018-01-05 21:22:49
+* @Last Modified by:   lenovo
+* @Last Modified time: 2018-01-12 15:26:17
+*/
+@import url('base.css');
+
+.header{
+	width: 100%;
+	height: 4rem;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+
+}
+.qian{
+	display: block;
+	height: 1rem;
+	width: 3rem;
+	text-align: center;
+	font-size: 0.5rem;
+	line-height: 1rem;
+	border-radius: 0.2rem;
+	border: 0.01rem solid #fb3982;
+	color: #fb3982;
+}
+.section{
+	width: 100%;
+	height: 2rem;
+	display: flex;
+	padding-bottom: 0.7rem;
+}
+.jifen{
+	display: block;
+	width: 25%;
+	height: 2rem;
+	text-align: center;
+	line-height: 1rem;
+}
+.money{
+	font-weight:bold;
+	font-size: 0.55rem;
+	color: #4b4b4b;
+}
+.yue{
+	color: #4c4c4c;
+	font-size: 0.5rem;
+}
+.vip{
+	width: 100%;
+	height: 1rem;
+	display: flex;
+	justify-content: space-between;
+}
+.quanyi{
+	width: 3rem;
+	height: 1rem;
+	display: block;
+	text-align: center;
+	line-height: 1rem;
+	color: #413f40;
+	font-size: 0.55rem;
+}
+.vip :last-child{
+	font-size: 0.35rem;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 531085 */
+  src: url('https://at.alicdn.com/t/font_531085_46msneiemez2rzfr.eot');
+  src: url('https://at.alicdn.com/t/font_531085_46msneiemez2rzfr.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_531085_46msneiemez2rzfr.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_531085_46msneiemez2rzfr.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_531085_46msneiemez2rzfr.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family: 'iconfont';
+	font-style: normal;
+}
+.vip i{
+	color: #fc068f;
+}
+.youhui{
+	width: 10rem;
+	height: 0.6rem;
+	margin-left: 0.45rem;
+	color: #767676;
+	font-size: 0.4rem;
+}
+span{
+	color:#fc478e;
+	font-size: 0.4rem; 
+} 
+.shop{
+	width: 100%;
+	height: 2rem;
+	padding-top: 0.5rem;
+	display: flex;
+}
+.fanxian{
+	width: 25%;
+	height: 2rem;
+	display: block;
+	line-height: 0.8rem;
+}
+.shop i{
+	font-size: 0.7rem;
+	margin-left: 1rem;
+	color: #ff9b31;
+}
+.shop p{
+	font-size: 0.4rem;
+	text-align: center;
+	color: #747474;
+}
+.WD{
+	width: 10rem;
+	height: 0.8rem;
+	font-weight: bold;
+	font-size: 0.5rem;
+	margin-left: 0.5rem;
+	color: #474344;
+}
+.Dingdan{
+	width: 100%;
+	height: 0.8rem;
+	display: flex;
+	justify-content: space-between;
+}
+.xiangqing{
+	width: 3.1rem;
+	height: 0.5rem;
+	display: block;
+	font-size: 0.3rem;
+	margin-left: 0.5rem;
+	color: #949494;
+	margin-top: 0.1rem;
+}
+.fukuan{
+	width: 100%;
+	height: 2.3rem;
+	display: flex;
+}
+.DD1{
+	display: block;
+	width: 25%;
+	height: 2.3rem;
+	text-align: center;
+	line-height: 1rem;
+}
+.DD1 i {
+	font-size: 0.65rem;
+	color: #fd73af;
+}
+.DD1 p{
+	font-size: 0.4rem;
+	color: #494949;
+}
+.dizhi{
+	width: 100%;
+	height: 1.83rem;
+	border-top: 1px solid #e5e5e5;
+	border-bottom:1px solid #e5e5e5;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.dizhi1{
+	width: 100%;
+	height: 1.83rem;
+	border-top: 1px solid #e5e5e5;
+	border-bottom:1px solid #e5e5e5;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 2rem;
+}
+
+.dizhi a:last-child{
+	width: 0.6rem;height: 0.6rem;
+}
+.dizhi1 a:last-child{
+	width: 0.6rem;height: 0.6rem;
+}
+.WODE{
+	width: 2.2rem;
+	height: 0.6rem;
+	display: block;
+	margin-left: 0.5rem;
+	color: #474747;
+	font-size: 0.44rem;
+}
+.footer{
+	width: 100%;
+	height: 1.5rem;
+	display: flex;
+	position: fixed;
+	z-index: 999;
+	bottom: 0;
+	left: 0;
+	margin-top: 1rem;
+	background: white;
+
+}
+.my{
+	display: block;
+	width: 25%;
+	height: 1.5rem;
+	text-align: center;
+	
+}
+@font-face {
+  font-family: 'iconfont2';  /* project id 531085 */
+  src: url('https://at.alicdn.com/t/font_531085_8w6vlgfq6y0q9f6r.eot');
+  src: url('https://at.alicdn.com/t/font_531085_8w6vlgfq6y0q9f6r.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_531085_8w6vlgfq6y0q9f6r.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_531085_8w6vlgfq6y0q9f6r.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_531085_8w6vlgfq6y0q9f6r.svg#iconfont') format('svg');
+}
+.iconfont2{
+	font-family: 'iconfont2';
+	font-style: normal;
+	color: #a1a1a1;
+}
+.my i{
+	font-size: 0.7rem;
+}
+.my p{
+	color: #252525;
+	font-size: 0.4rem;
+	margin-top: 0.1rem;
+}
+.my1{
+	display: block;
+	width: 25%;
+	height: 1.5rem;
+	text-align: center;
+	color: #ff5199;
+	
+}
+.my1 i{
+	color: #ff5199;
+	font-size: 0.7rem;
+
+}
+.my1 p{
+	font-size: 0.4rem;
+	margin-top: 0.1rem;
+
+}

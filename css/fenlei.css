@@ -1,0 +1,206 @@
+/*
+* @Author: lenovo
+* @Date:   2018-01-06 17:08:20
+* @Last Modified by:   lenovo
+* @Last Modified time: 2018-01-12 15:25:17
+*/
+@import url('base.css');
+.header{
+	width: 100%;
+	height: 1.35rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.kaitong{
+	display: block;
+	width: 5rem;
+	height: 0.5rem;
+	margin-left: 3.3rem;
+	display: flex;
+}
+.sousuo{
+	width: 1rem;
+	height: 1rem;
+	display: block;
+	color: #272727;
+}
+.hours{
+	width: 50%;
+	height: 0.5rem;
+	font-size: 0.4rem;
+	text-align: center;
+	color: #262626;
+	color: #f4196d;
+}
+.hours2{
+	width: 50%;
+	height: 0.5rem;
+	font-size: 0.4rem;
+	text-align: center;
+	color: #262626;
+}
+
+@font-face {
+  font-family: 'iconfont';  /* project id 531085 */
+  src: url('https://at.alicdn.com/t/font_531085_avx2f55a210dx6r.eot');
+  src: url('https://at.alicdn.com/t/font_531085_avx2f55a210dx6r.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_531085_avx2f55a210dx6r.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_531085_avx2f55a210dx6r.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_531085_avx2f55a210dx6r.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family: 'iconfont'; 
+	font-style: normal;
+}
+.sousuo i{
+	
+	font-size: 0.54rem; 
+	margin-left: 0.23rem;
+}
+.sousuo p{ 
+   font-size: 0.3rem;
+   text-align: center;
+
+}
+.pinlei{
+	width: 100%;
+	height: 1.31rem;
+	border-top:0.01rem solid #e5e5e5;
+	border-bottom:0.01rem solid #e5e5e5;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+@font-face {
+  font-family: 'iconfont9';  /* project id 539261 */
+  src: url('https://at.alicdn.com/t/font_539261_gu1513pg52ck57b9.eot');
+  src: url('https://at.alicdn.com/t/font_539261_gu1513pg52ck57b9.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_539261_gu1513pg52ck57b9.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_539261_gu1513pg52ck57b9.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_539261_gu1513pg52ck57b9.svg#iconfont') format('svg');
+}
+.iconfont9{
+	font-family: 'iconfont9';
+}
+
+.back{
+	display: block;
+	width: 0.5rem;
+	height: 0.5rem;
+	text-align: center;
+	line-height: 0.5rem;
+	margin-left: 0.1rem;
+	
+}
+.back i{
+	font-size: 0.6rem;
+	color: #999;
+	transform: rotate(-45deg);
+}
+.cha{
+	width: 0.5rem;
+	height: 0.5rem;
+	display: block;
+	margin-right: 0.25rem;
+}
+.cha i{
+	color: #acacac;
+}
+.pinpai{
+	margin-left: 4.45rem;
+	width: 1.9rem;
+	height: 0.5rem;
+	font-size: 0.4rem;
+	text-align: center;
+	color: #393939;
+}
+.huoguo{
+	width: 100%;
+	height: 2rem;
+	display: flex;
+	margin-top: 0.4rem;
+}
+.guoguo{
+	display: block;
+	width: 25%;
+	height: 2rem;
+}
+.guoguo img{
+	width: 1rem;
+	height: 1rem;
+	margin-left: 0.8rem;
+}
+.guoguo p{
+	margin-left: 0.95rem;
+	font-size: 0.35rem;
+	margin-top: 0.3rem;
+	color: #4e4e4e;
+
+}
+.huoguo1{
+	width: 100%;
+	height: 2rem;
+	display: flex;
+	margin-top: 0.4rem;
+	margin-bottom: 2rem;
+}
+.footer{
+	width: 100%;
+	height: 1.5rem;
+	display: flex;
+	position: fixed;
+	z-index: 999;
+	bottom: 0;
+	left: 0;
+	margin-top: 1rem;
+	background: white;
+	border-top: 0.02rem solid #f5f5f5;
+
+}
+.my{
+	display: block;
+	width: 25%;
+	height: 1.5rem;
+	text-align: center;
+	
+}
+@font-face {
+  font-family: 'iconfont2';  /* project id 531085 */
+  src: url('https://at.alicdn.com/t/font_531085_8w6vlgfq6y0q9f6r.eot');
+  src: url('https://at.alicdn.com/t/font_531085_8w6vlgfq6y0q9f6r.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_531085_8w6vlgfq6y0q9f6r.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_531085_8w6vlgfq6y0q9f6r.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_531085_8w6vlgfq6y0q9f6r.svg#iconfont') format('svg');
+}
+.iconfont2{
+	font-family: 'iconfont2';
+	font-style: normal;
+	color: #a1a1a1;
+}
+.my i{
+	font-size: 0.7rem;
+}
+.my p{
+	color: #252525;
+	font-size: 0.4rem;
+	margin-top: 0.1rem;
+}
+.my1{
+	display: block;
+	width: 25%;
+	height: 1.5rem;
+	text-align: center;
+	color: #ff5199;
+	
+}
+.my1 i{
+	color: #ff5199;
+	font-size: 0.7rem;
+
+}
+.my1 p{
+	font-size: 0.4rem;
+	margin-top: 0.1rem;
+
+}

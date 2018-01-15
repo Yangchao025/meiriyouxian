@@ -1,0 +1,316 @@
+/*
+* @Author: lenovo
+* @Date:   2018-01-07 16:22:37
+* @Last Modified by:   lenovo
+* @Last Modified time: 2018-01-12 15:25:56
+*/
+@import url('base.css');
+
+.header{
+	width: 100%;
+	height: 1.32rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 0.01rem solid #f2f2f2;
+}
+.back{
+	display: block;
+	width: 0.5rem;
+	height: 0.5rem;
+	text-align: center;
+	line-height: 0.5rem;
+	
+}
+.back i{
+	font-size: 0.6rem;
+	color: #2f2f2f;
+}
+.shopping{
+	width: 2.3rem;
+	height: 0.96rem;
+	display: block;
+	font-size: 0.4rem;
+	text-align: center;
+	line-height: 0.96rem;
+	color: #ff1f87;
+	font-weight: bold;
+}
+.fenxiang{
+	display: block;
+	width: 0.7rem;
+	height: 0.5rem;
+}
+.fenxiang i {
+	font-size: 0.5rem;
+	color: #222;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 531085 */
+  src: url('https://at.alicdn.com/t/font_531085_v3dew3q421b2csor.eot');
+  src: url('https://at.alicdn.com/t/font_531085_v3dew3q421b2csor.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_531085_v3dew3q421b2csor.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_531085_v3dew3q421b2csor.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_531085_v3dew3q421b2csor.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family: 'iconfont';
+	font-style: normal;
+}
+.banner{
+	width: 100%;
+	height: 6.9rem;
+	position: relative;
+	margin-top: 0.2rem;
+}
+.banner img{
+	width: 8.76rem;
+	height: 6.65rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.zi{
+	width: 100%;
+	height: 1.4rem;
+}
+.worth{
+    width: 5.75rem;
+    height: 0.7rem;
+    margin-left: 0.45rem;
+    font-size: 0.5rem;
+    color: #444243;
+    font-weight: bold;
+}
+.one{
+	width: 6.3rem;
+	height: 0.45rem;
+	font-size: 0.4rem;
+	color: #4f4d4e;
+    margin-left: 0.45rem;
+
+}
+.money{
+	width: 100%;
+	height: 0.7rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+.ji{
+	width: 2.5rem;
+	height: 0.5rem;
+	margin-left: 0.45rem;
+	display: flex;
+}
+.ji1{
+	width: 2.25rem;
+	height: 0.5rem;
+	margin-left: 0.45rem;
+	display: flex;
+	align-items: flex-end;
+	font-size: 0.3rem;
+	color: #b3b3b3;
+}
+.xianjia{
+	font-size: 0.4rem;
+	color: #fc488f;
+}
+.xianjia i{
+	font-size: 0.35rem;
+}
+.yuanjia{
+	font-size: 0.25rem;
+	color: #969696;
+	text-decoration: line-through;
+}
+.huiyuan{
+	width: 10.15rem;
+	height: 1.73rem;
+	background: #feebc0;
+	margin: 0 auto;
+	border-radius: 0.1rem;
+	margin-top: 0.7rem;
+}
+.hynei{
+	width: 9.02rem;
+	height: 1.73rem;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center
+}
+.hyleft{
+	width: 5.84rem;
+	height: 1.73rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center
+
+}
+.hyt{
+	width: 0.98rem;
+	height: 0.45rem;
+	color: #c18d28;
+	background: #f5cb79;
+	font-size: 0.3rem;
+	border-radius: 0.07rem;
+	text-align: center;
+}
+
+.hyz{
+	width: 4.63rem;
+	height: 0.8rem;
+}
+.hyz .hhhh{
+	width: 4.63rem;
+	height: 0.4rem;
+	font-size: 0.3rem;
+	line-height: 0.4rem
+}
+.hyright{
+	display: block;
+	width: 1.45rem;
+	height: 0.45rem;
+	font-size: 0.32rem;
+	color: #544945;
+}
+.hyright i{
+	font-size: 0.35rem;
+}
+span{
+	font-size: 0.3rem;
+	color: #ff4892;
+}
+.jiance{
+	width: 100%;
+	height: 1.1rem;
+	margin-top: 0.2rem;
+}
+.ce{
+	width: 3rem;
+	height: 0.45rem;
+	margin-left: 0.4rem;
+	font-size: 0.43rem;
+	font-weight: bold;
+	color: #444041;
+}
+.ce i{
+	color: #78ce6d;
+}
+.shi{
+	width: 8.5rem;
+	height: 0.4rem;
+	margin-left: 0.4rem;
+	font-size: 0.3rem;
+	color: #959595;
+	margin-top: 0.1rem;
+
+
+}
+.pingjia{
+	width: 10.06rem;
+	height: 6rem;
+	border-radius: 0.2rem;
+	margin: 0 auto;
+	margin-top: 0.2rem;
+	background: #f5f5f5;
+	
+	/* box-shadow: 0 0 0.01rem 0.1rem rgba(0, 0, 0, 0.1); */
+
+}
+.pingjia img{
+	width: 1.53rem;
+	height: 0.79rem;
+}
+.maijia{
+	display: flex;
+}
+.people{
+	width: 7.52rem;
+	height: 1.88rem;
+	margin-top: 0.5rem;
+	display: flex;
+	justify-content: space-between;
+	margin-left: 0.4rem;
+}
+.people img{
+	width: 1.9rem;
+	height: 1.88rem;
+}
+.name{
+	width: 1.35rem;
+	height: 0.4rem;
+	font-size: 0.4rem;
+	color: #7d7d7d;
+}
+.jieshi{
+	width: 5rem;
+	height: 0.7rem;
+	font-size: 0.3rem;
+	color: #7d7d7d;
+	margin-top: 0.3rem;
+}
+.dianping{
+	width: 9.3rem;
+	height: 3.15rem;
+	margin-left: 0.4rem;
+	border-radius: 0.2rem;
+	margin: 0 auto;
+	margin-top: 0.3rem;
+
+}
+.dianping p{
+	width: 7.8rem;
+	height: 0.6rem;
+	font-size: 0.3rem;
+	color: #434142;
+	line-height: 0.6rem;
+	margin-top: 0.1rem;
+}
+.guige{
+	padding-top: 0.5rem;
+	width: 10rem;
+	height: 5.3rem;
+	margin: 0 auto;
+	font-size: 0.45rem;
+	color: #464243;
+	font-weight: bold;
+	margin-bottom: 1.5rem;
+}
+.guige li{
+	margin-top: 0.2rem;
+	font-size: 0.35rem;
+	color: #a5a5a5;
+}
+
+.footer{
+	width: 100%;
+	height: 1.5rem;
+	display: flex;
+	position: fixed;
+	z-index: 999;
+	bottom: 0;
+	left: 0;
+}
+.wuche{
+	width: 2.05rem;
+	height: 1.49rem;
+	border-top: 0.01rem solid #f2f2f2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: white;
+}
+.wuche i{
+	font-size: 0.64rem;
+}
+.cheche{
+	width: 8.75rem;
+	height: 1.5rem;
+	background:#fe4990; 
+	text-align: center;
+	line-height: 1.5rem;
+	color: white;
+	font-weight: bold;
+}
